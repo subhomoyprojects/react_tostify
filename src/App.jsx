@@ -3,6 +3,7 @@ import Register from "./Register";
 import Login from "./Login";
 import Blog from "./Blog";
 import FormTest from "./FormTest";
+import FormDataPass from "./FormDataPass";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/form" element={<FormTest />} />
+          <Route path="/formData" element={<FormDataPass />} />
         </Routes>
       </BrowserRouter>
     </>
